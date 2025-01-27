@@ -24,9 +24,9 @@ pip install -r requirements.txt
 
 4. Create a .env file in the root directory and add the following environment variables:
 
-API_KEY="YOUR_API_KEY"
-CHAT_MODEL_NAME="gpt-4o-mini"
-EMBEDDING_MODEL_NAME="sentence-transformers/all-mpnet-base-v2"
+API_KEY="YOUR_API_KEY" <br>
+CHAT_MODEL_NAME="gpt-4o-mini" <br>
+EMBEDDING_MODEL_NAME="sentence-transformers/all-mpnet-base-v2" <br>
 SYSTEM_MESSAGE="You are an AI assistant specialized in answering user's query. Your task is to assist and answer user's query generating accurate and contextually appropriate responses. You are to only provide an answer based on retrieved information and not generate new information."
 CHUNK_SIZE=500
 CHUNK_OVERLAP=50
