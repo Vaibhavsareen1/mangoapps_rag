@@ -27,11 +27,11 @@ pip install -r requirements.txt
 API_KEY="YOUR_API_KEY" <br>
 CHAT_MODEL_NAME="gpt-4o-mini" <br>
 EMBEDDING_MODEL_NAME="sentence-transformers/all-mpnet-base-v2" <br>
-SYSTEM_MESSAGE="You are an AI assistant specialized in answering user's query. Your task is to assist and answer user's query generating accurate and contextually appropriate responses. You are to only provide an answer based on retrieved information and not generate new information."
-CHUNK_SIZE=500
-CHUNK_OVERLAP=50
-K_RETRIEVALS=5
-COLLECTION_NAME="mangoapps_project"
+SYSTEM_MESSAGE="You are an AI assistant specialized in answering user's query. Your task is to assist and answer user's query generating accurate and contextually appropriate responses. You are to only provide an answer based on retrieved information and not generate new information." <br>
+CHUNK_SIZE=500 <br>
+CHUNK_OVERLAP=50 <br>
+K_RETRIEVALS=5 <br>
+COLLECTION_NAME="mangoapps_project" <br>
 
 ## Running the Application
 1. Start the backend server:
